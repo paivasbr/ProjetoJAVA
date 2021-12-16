@@ -1,13 +1,13 @@
 package POO1;
 
 public class BaseFigura {
-	
-	protected double lado1; 
+
+	protected double lado1;
 	protected double lado2;
 	protected String nome;
 	protected String nomeClasse;
-	
-	BaseFigura(double lado1,double lado2, String nome){
+
+	BaseFigura(double lado1, double lado2, String nome) {
 		this.lado1 = lado1;
 		this.lado2 = lado2;
 		this.nome = nome;
@@ -35,11 +35,9 @@ public class BaseFigura {
 	}
 	public void setNomeClasse(String nomeClasse) {
 		this.nomeClasse = nomeClasse;
-		
 	}
-	
 	public double getArea() {
-		return lado1 * lado2;
+		return lado1*lado2;
 	}
 	public double getPerimetro() {
 		return (lado1+lado2)*2.0;

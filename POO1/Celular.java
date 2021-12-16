@@ -16,7 +16,7 @@ public class Celular extends Telefone { //indica que a subclasse celular herda t
 				System.out.println("\nPrimmm,Primmm,Primmm");
 				break;
 				default:
-					System.out.println("\nPOBRE LIGANDO PRA MIM...");
+				System.out.println("\nPOBRE LIGANDO PRA MIM...");
 		}
 	}
 	@Override //método sobrescrito da superclasse
