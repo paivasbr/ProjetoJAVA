@@ -21,7 +21,7 @@ package POO;
 		  this.cidadeDoCliente = cidadeDoCliente;
 		  this.perfilDoCliente = perfilDoCliente;
 	}
-	//métodos que manipulam os atributos 
+	//métodos que manipulam os atributos (são ações do objeto)
 	public void imprimirInfo() {
 		System.out.println("\nO(A) cliente: "+nomeDoCliente+", \npossui o(s) seguinte(s) contato(s): email-"+contatoDoCliente+", \na cidade natal do(a) cliente é: "+cidadeDoCliente+", \no(a) cliente possui um perfil: "+perfilDoCliente);
 	}
